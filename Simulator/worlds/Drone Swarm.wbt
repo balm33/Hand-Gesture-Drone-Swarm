@@ -1,0 +1,90 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/dji/mavic/protos/Mavic2Pro.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Forest.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/TrashContainer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/humans/pedestrian/protos/Pedestrian.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/forklift/protos/Forklift.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/animals/protos/Cow.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/Silo.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/traffic/protos/HighwayPole.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.03492815587652311 -0.9991219755558012 -0.02313659198192762 6.015415484288056
+  position -6.49714874295767 -0.06633198451737055 2.088379719202173
+  near 0.18
+  follow "Mavic 2 PRO 0"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 50 50
+  wallHeight 5
+}
+Mavic2Pro {
+  translation -0.0050373315876442865 -4.1462486625747516e-07 0.06561394065108576
+  rotation 0.00010869762014329393 -0.9999999940201456 -1.2022307894733688e-05 0.07000639640111973
+  name "Mavic 2 PRO 0"
+  controller "drone_controller"
+}
+Mavic2Pro {
+  translation -1.4999932063738484 -4.14624866295274e-07 0.06561394065108575
+  rotation 0.00010869762014292106 -0.9999999940201456 -1.2022307899603692e-05 0.07000639640111969
+  name "Mavic 2 PRO 1"
+  controller "drone_controller"
+}
+Mavic2Pro {
+  translation 1.5000067936261516 -4.1462486629431304e-07 0.06561394065108578
+  rotation 0.00010869762014420822 -0.9999999940201456 -1.2022307898462464e-05 0.07000639640111972
+  name "Mavic 2 PRO 2"
+  controller "drone_controller"
+}
+Mavic2Pro {
+  translation -0.00503733158764437 -1.5000002119268885 0.06561394065108576
+  rotation 0.00010869762014256521 -0.9999999940201456 -1.2022307895813708e-05 0.07000639640111972
+  name "Mavic 2 PRO 3"
+  controller "drone_controller"
+}
+Mavic2Pro {
+  translation -0.005037331587644356 1.4999997880731117 0.06561394065108576
+  rotation 0.00010869762014327421 -0.9999999940201457 -1.2022307902215894e-05 0.07000639640111964
+  name "Mavic 2 PRO 4"
+  controller "drone_controller"
+}
+TrashContainer {
+  translation 6.76996 -1.40915e-05 -0.0633852
+  rotation 1.1023499861189205e-05 0.00015831299800648127 0.9999999874077384 2.618
+  enablePhysics TRUE
+}
+Pedestrian {
+  translation 3.53 6.03 1.27
+  rotation 4.596149999935272e-06 2.6535899999626298e-06 0.999999999985917 -1.047195307179586
+}
+Forklift {
+  translation 0 -5.29 0.81
+}
+Cow {
+  translation 1.59 6.01 0
+}
+Silo {
+  translation 14.8 0 0
+}
+Silo {
+  translation -8.46 -13.65 0
+  name "silo(1)"
+}
+Silo {
+  translation -9.29 12.07 0
+  name "silo(2)"
+}
+HighwayPole {
+  translation 7.07312 11.92 0
+  rotation 0 0 1 -2.094395307179586
+}
